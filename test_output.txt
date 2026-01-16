@@ -1,0 +1,41 @@
+Starting tests...
+Checking http://127.0.0.1:8001/health...
+[OK] Health Check Passed: {'status': 'ok'}
+
+Creating conversation at http://127.0.0.1:8001/conversations...
+[OK] Create Conversation Passed: {'id': 5, 'created_at': '2026-01-12T11:09:10.242701+00:00', 'message': 'Hello from Python Test Script', 'response': None}
+
+Fetching conversations from http://127.0.0.1:8001/conversations...
+[OK] Get Conversations Passed: Retrieved 5 records
+[
+  {
+    "id": 5,
+    "created_at": "2026-01-12T11:09:10.242701+00:00",
+    "message": "Hello from Python Test Script",
+    "response": null
+  },
+  {
+    "id": 4,
+    "created_at": "2026-01-12T11:04:55.871774+00:00",
+    "message": "Hello from Python Test Script",
+    "response": null
+  },
+  {
+    "id": 3,
+    "created_at": "2026-01-12T11:03:12.810471+00:00",
+    "message": "Hello from Python Test Script",
+    "response": null
+  },
+  {
+    "id": 2,
+    "created_at": "2026-01-12T11:00:31.469905+00:00",
+    "message": "Hello from Python Test Script",
+    "response": null
+  },
+  {
+    "id": 1,
+    "created_at": "2026-01-12T10:59:00.682672+00:00",
+    "message": "Hello from Python Test Script",
+    "response": null
+  }
+]
