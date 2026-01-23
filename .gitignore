@@ -1,2 +1,21 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtualenv
+.env
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
